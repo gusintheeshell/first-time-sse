@@ -1,0 +1,38 @@
+{
+  "name": "sse-back",
+  "version": "1.0.0",
+  "description": "Server for SSE first time",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusbdev/first-time-sse.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "node",
+    "nodejs",
+    "sse"
+  ],
+  "author": "Gustavo Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusbdev/first-time-sse/issues"
+  },
+  "homepage": "https://github.com/gusbdev/first-time-sse#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.6",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
